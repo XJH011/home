@@ -114,7 +114,9 @@ onMounted(() => {
     |    |  |    |  \   /  /_\  \    ______   \     /      |    | /    |    \
 /\__|    |  |        \ /    |    \  /_____/   /     \  /\__|    | \    |    /
 \________| /_______  / \____|__  /           /___/\  \ \________|  \___|_  / 
-                   \/          \/                  \_/                   \/  `;
+                   \/          \/                  \_/                   \/  
+
+`;
   const content = `\n\nVersión: ${config.version}\nPagina Principal: ${config.home}\nGithub: ${config.github}`;
   console.info(`%c${title1} %c${title2} %c${content}`, styleTitle1, styleTitle2, styleContent);
 });
